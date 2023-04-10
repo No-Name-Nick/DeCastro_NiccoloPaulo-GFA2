@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body id="body" >
+    <div id="Calc">
+    <p id="Name">Calculator</p>
+    <p id="Instructions">Type in your 2 numbers and press the operation </p>
+    <input type="text" id="FirstNum" placeholder="1st Number">
+        <div id="Button">
+            <button type="button" onclick="Add()">+</button>
+            <button type="button" onclick="Subtract()">-</button>
+            <button type="button" onclick="Multiply()">*</button>
+            <button type="button" onclick="Divide()">/</button>
+            <button type="button" onclick="Modulo()">%</button>
+        </div>
+    <input type="text" id="SecondNum" placeholder="2nd Number">
+    <p id="Output">The Answer</p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
